@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KING, ALTET, BOS, CEO</title>
+  <link rel="stylesheet" href="day.css" />
+</head>
+<body>
+
+  <div class="screen-petals-container" id="screenPetals"></div>
+
+  <header>
+    <h1>Welcome to <span>PMS</span></h1>
+    <p>Moga NASYWA day one dan day day selanjutnya mood e gak naik turun😹😹</p>
+  </header>
+
+  <!-- KANVAS UTAMA -->
+  <div class="bloom-container" id="container">
+    <!-- Kubah kaca -->
+    <div class="glass-dome" id="dome">
+      <div class="crack-line c1"></div>
+      <div class="crack-line c2"></div>
+      <div class="crack-line c3"></div>
+    </div>
+    
+    <!-- BUNGA UTAMA -->
+    <div class="flower-wrapper" id="flowerWrapper">
+      <div class="flower-head" id="flowerHead">
+        <!-- Foto disimpan di data-src agar tersembunyi, baru muncul saat diklik -->
+        <div class="petal p1" data-src="tifosikomedi.jpg"></div>
+        <div class="petal p2" data-src="tifosi.jpg"></div>
+        <div class="petal p3" data-src="maxwdc.jpg"></div>
+        <div class="petal p4" data-src="ronaldo.jpg"></div>
+        <div class="petal p5" data-src="grlfuck.jpg"></div>
+        <div class="flower-center" data-src="MESSI1.jpg"></div>
+      </div>
+      <div class="stem">
+        <div class="leaf left"></div>
+        <div class="leaf right"></div>
+      </div>
+    </div>
+
+    <!-- SURAT DI TENGAH BUNGA -->
+    <div class="letter-center-inside" id="letterInside">
+      <div class="letter-box">
+        <button class="close-btn" id="closeBtn">&times;</button>
+        <div class="letter-content">
+          <div class="letter-icon">⚠</div>
+          <h2>MASA MASA PMS 😈</h2>
+          <p>Semoga day one sampai day day berikutnya berjalan dengan sangat amat lancar jaya😁😁, enggak ada yang namanya hambatan hambatan seng mengganggu ketentraman jiwa dan raga😎😽. Semoga tingkat kemarahan bisa ditekan hingga mencapai titik terbawah di angka 0%⭕, sementara tingkat kebahagiaan terus meningkat➕➕➕ tanpa mengenal kata minus----. Selalu bahagia kayak titut😎, mood e bagus+++++ setiap saat😈, tidak menerima penurunan dalam bentuk apa pun〽️. Semoga segala galanya berjalan sesuai harapan ya melenceng dikit gakpapah lah🤑, dijauhkan dari segala bentuk badmood yang tidak diundang😥😰🤬😭, dan nemu hal-hal yang fun fun trusss. intine moga gak bat bat mode happy selalu aktif🤩🤩, gakkk ada mood turun turun oponeh minessss---🙄, gak ada error mood🙊🙊. Sekian thank you dah baca, moga baik terus okeee👍👍</p>
+          <div class="letter-footer">- CEO, PROSESOR, ATLET, PENJUAL CILOK AND MARTABAK, BOS BESARRR -</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="base-stand"></div>
+  </div>
+
+  <div class="action-info" id="statusText">
+    PENCET EN KACA NE IKU (4x PENCETAN)
+  </div>
+
+  <!-- ELEMENT MODAL FOTO -->
+  <div id="photoModal" class="modal">
+    <span class="close-photo-btn">&times;</span>
+    <button class="nav-btn prev-btn">❮</button> 
+    
+    <div class="modal-content">
+      <img id="modalImg" src="" alt="Foto Bunga">
+      <div id="photoCounter" class="photo-counter"></div>
+    </div>
+    
+    <button class="nav-btn next-btn">❯</button> 
+  </div>
+
+   <audio id="backsound" src="Magnolia.mp3" loop></audio>
+
+  <script src="day.js"></script>
+</body>
+</html>
